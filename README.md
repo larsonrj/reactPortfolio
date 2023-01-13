@@ -19,4 +19,4 @@ In this challenge the user is tasked with refactoring their portfolio created at
     <li>Add updated screenshots and new projects/homework for the work section</li>
 </ul>
 
-Link to deployed app: [J.A.T.E.](https://gentle-reef-57644.herokuapp.com/)
+Link to deployed app: [Ryan Larson Portfolio](https://dry-coast-12285.herokuapp.com/)
