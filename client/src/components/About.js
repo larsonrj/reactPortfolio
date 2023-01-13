@@ -25,7 +25,7 @@ function About() {
             those as placeholder images that will get replaced as I complete
             more projects from the bootcamp to add to my portfolio!
           </p>
-          <img src={portfolioPic} alt="Profile picture of Ryan Larson"></img>
+          <img src={portfolioPic} alt="Profile Ryan Larson"></img>
         </div>
       </section>
     </div>

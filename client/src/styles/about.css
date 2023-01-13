@@ -1,3 +1,11 @@
+:root {
+  --header: #232f3e;
+  --white: #fff;
+  --section: #1d428a;
+  --red: #8b2131;
+  --yellow: #fec524;
+}
+
 .sectionDiv {
   display: flex;
   flex-direction: column;
@@ -39,4 +47,105 @@
 .about img {
   min-width: 200px;
   max-height: 150px;
+}
+
+.work-examples {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-left-style: solid;
+  border-left-color: var(--red);
+  width: 66%;
+  padding: 20px;
+}
+
+.work-examples .wide {
+  flex: 90%;
+  text-align: center;
+  position: relative;
+  margin: 5px;
+}
+
+.title {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 250%;
+  color: var(--yellow);
+}
+
+/* When hovering image links yellow border will appear  */
+a:hover img {
+  border: solid var(--yellow);
+}
+
+/* When hovering image links, link title will change red  */
+a:hover .title {
+  color: var(--red);
+}
+
+.work-examples a {
+  flex: 45%;
+  text-align: center;
+  position: relative;
+  margin: 5px;
+  color: var(--white);
+}
+
+/* Unique width for first picture which is wider than the rest  */
+.work-examples img {
+  width: 100%;
+  height: 300px;
+}
+
+.work-examples .wide img {
+  height: 450px;
+}
+
+.contact {
+  border-left-style: solid;
+  border-left-color: var(--red);
+  width: 66%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.contact ul {
+  background-color: var(--header);
+  padding: 5px;
+  flex: 90%;
+  color: var(--yellow);
+  font-family: roboto slab, sans-serif;
+  display: flex;
+  font-size: 125%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  height: 125%;
+}
+
+/* Change flex direction for nav and contact so the links do not get squished together on narrower screens.
+Adjust font size for work links to decrease as screen narrows */
+@media screen and (max-width: 1150px) {
+  nav ul {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .contact ul {
+    flex-direction: column;
+  }
+  .title {
+    font-size: 175%;
+  }
+}
+
+/* Change flex direction for about and work sections so they will display vertically on mobile screen types  */
+@media screen and (max-width: 768px) {
+  .work-examples {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .about {
+    flex-wrap: wrap-reverse;
+  }
 }
