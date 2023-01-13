@@ -1,0 +1,42 @@
+.sectionDiv {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2%;
+}
+
+.section-style {
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+}
+
+.section-title {
+  padding: 20px;
+  color: #1d428a;
+  font-size: 200%;
+  width: 33%;
+  font-family: roboto slab, sans-serif;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about {
+  width: 66%;
+  font-size: 90%;
+  justify-content: center;
+  padding: 20px;
+  border-left-style: solid;
+  border-left-color: #8b2131;
+  display: flex;
+  align-items: center;
+}
+
+.about p {
+  flex: 70%;
+  padding: 10px;
+}
+
+.about img {
+  min-width: 200px;
+  max-height: 150px;
+}

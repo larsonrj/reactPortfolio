@@ -1,0 +1,25 @@
+/* Nav font size and style  */
+nav {
+  font-size: 125%;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Evenly space the list of nav links  */
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Underline text for nav links  */
+nav ul li {
+  text-decoration: underline #8b2131;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  color: #fec524;
+  text-decoration: underline #8b2131;
+}
