@@ -54,7 +54,11 @@ function Work() {
             ></img>
             <div class="title">Project 2</div>
           </a>
-          <a>
+          <a
+            href="https://the-malie.herokuapp.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src="https://images.unsplash.com/photo-1508206661992-0a79b553e6d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzR8fGJhc2tldGJhbGx8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
               alt="Basketball hoop sunset"
